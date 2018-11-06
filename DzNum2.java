@@ -1,4 +1,4 @@
-package com.htp.com.htp.dz.HomeWork2;
+package com.htp.dz.HomeWork2;
 
 import com.sun.org.apache.xpath.internal.operations.Equals;
 
