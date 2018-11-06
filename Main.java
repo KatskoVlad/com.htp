@@ -1,4 +1,4 @@
-package com.htp.com.htp.dz.HomeWork3;
+package com.htp.dz.HomeWork3;
 
 import java.util.ArrayList;
 import java.util.List;
