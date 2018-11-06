@@ -1,4 +1,4 @@
-package com.htp.dz.HomeWork1;
+package homework.HomeWork1;
 
 import java.util.Scanner;
 
@@ -192,8 +192,25 @@ public class DzNum1 {
         double usd = exchangeCurrency(5555.55, 67.56);
         System.out.println(usd);
 
+        System.out.println("Task *");
+        int days = scanner.nextInt();
+        calcTime(days);
+
     }
-    public static double exchangeCurrency(double rubli, double kurs){
+    public static double exchangeCurrency(double rubli, double kurs) {
         return rubli / kurs;
+    }
+
+    //Напишите программу, которая будет считать количество часов, минут и
+    //секунд в n-ном количестве суток.
+    public static void calcTime(int countDays){
+        if (countDays<=0)
+            throw new IllegalArgumentException();
+        int hours = countDays * 24;
+        int minutes = countDays * 1440;
+        int seconds = countDays * 86400;
+        System.out.println("In "+countDays+" days, count hours: "+hours+", count minutes: "+ minutes +", count seconds: "+
+                seconds
+                );
     }
 }
