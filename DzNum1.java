@@ -1,4 +1,4 @@
-package com.htp.com.htp.dz.HomeWork1;
+package com.htp.dz.HomeWork1;
 
 import java.util.Scanner;
 
